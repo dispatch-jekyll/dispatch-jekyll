@@ -1,0 +1,29 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  max-width:30em;
+  margin:auto;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+input, textarea{
+  display:block;
+  width:100%;
+  font-size:1em;
+  font-family:inherit;
+  padding:.5em;
+}
+
+textarea{
+  height:300px;
+}
+
+:target{
+  -webkit-transition:all 1s ease;
+  background:#84D8FE;
+}
