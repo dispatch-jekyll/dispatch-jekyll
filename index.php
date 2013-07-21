@@ -103,4 +103,8 @@ $app->delete(
     }
 );
 
+$app->get('/:repo', function ($repo) use ($app) {
+    $app->render('site.php', array('repo' => $repo));
+});
+
 $app->run();
