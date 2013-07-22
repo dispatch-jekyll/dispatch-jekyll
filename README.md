@@ -1,9 +1,14 @@
-#juiC
+#juic
 publishes your content
 
 juic.ms is available, which could be cool.
 
 It's a Content Management System, powered by Jekyll.
+
+## Fundamental Goals
+
+1. Provide a Clean UX/UI for managing content.
+2. Completely abstract away from Jekyll and Git interfaces, and remove the learning curve required to learn these platforms.
 
 ##Development Branch Documentation
 
