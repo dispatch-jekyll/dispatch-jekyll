@@ -5,6 +5,8 @@ juic.ms is available, which could be cool.
 
 It's a Content Management System, powered by Jekyll.
 
-##Development
+##The 'backend' branch
 
-Going to get started on the 'userflow' branch, where static HTML will give us a feel for what it's like to use juiC.
+is the backend code for connecting to and interacting with the GitHub API.
+
+You'll need to setup a local virtual host to run this application, with the url configured as http://juic.ms
