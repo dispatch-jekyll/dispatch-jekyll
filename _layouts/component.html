@@ -8,7 +8,7 @@
         <!-- Custom CSS -->
        <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
 
-
+        <link rel="stylesheet" href="/css/font-awesome.css">
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/components/{{page.stylesheet}}">
     </head>
@@ -16,4 +16,14 @@
         {{content}}
     </body>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+    <script type="text/javascript" src='http://code.jquery.com/ui/1.10.3/jquery-ui.js'></script>
+    <script type="text/javascript" src='/js/hallo.js'></script>
+    <script type="text/javascript">
+     jQuery('.editable').hallo({
+  plugins: {
+    'halloformat': {},
+    'halloheadings':{}
+  }
+});
+    </script>
 </html>

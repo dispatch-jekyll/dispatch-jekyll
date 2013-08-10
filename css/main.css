@@ -37,3 +37,7 @@ h1, h2, h3{
 .button.subtle:active{
   box-shadow:0px 1px 0px #666;
 }
+
+.hallotoolbar{
+  background:#fff;
+}
