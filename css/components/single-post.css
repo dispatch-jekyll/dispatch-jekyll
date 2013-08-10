@@ -17,14 +17,12 @@ i{
   
 }
 
-.button:active,
-.button.active,
+.button:active
 .button.attn:active{
   -webkit-transform:translateY(2px);
 }
 
-.button:active,
-.button.active{
+.button:active{
 	box-shadow: 0px 1px 0px #27ae60;
 }
 
@@ -35,7 +33,6 @@ i{
 .button.active {
   padding-left:2.5em;
   position:relative;
-  background:#27ae60;
 }
 
 .button.active i {

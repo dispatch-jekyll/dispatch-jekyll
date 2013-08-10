@@ -19,3 +19,18 @@ $(function(){
   return false;
 });
 	});
+
+$(function(){
+	if(localStorage['data']){
+		$('[contenteditable]').html(JSON.parse(localStorage['data']));
+	}
+});
+//some local storage stuff
+$('[contenteditable]').bind('keyup', function(){
+	localStorage['data'] = JSON.stringify($('[contenteditable]').html());
+	console.log(localStorage);
+});
+
+$('.attn').bind('click', function(){
+	localStorage['data'] = '';
+});
