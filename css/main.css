@@ -23,15 +23,22 @@ h1, h2, h3{
   position: relative;
 }
 
+.button.attn{
+    background:#999;
+    color:#fff;
+    box-shadow:0px 3px 0px #666;
+}
+
 .button:active{
   -webkit-transform:translateY(2px);
   box-shadow:0px 1px 0px #27ae60;
 }
 
-.button.subtle{
-	background:#999;
-  	color:#fff;
-  	box-shadow:0px 3px 0px #666;
+
+
+.button.attn:hover{
+    background:#e74c3c;
+    box-shadow:0px 3px 0px #c0392b;
 }
 
 .button.subtle:active{

@@ -5,20 +5,13 @@ date:   2013-07-20 16:34:31
 categories: jekyll update
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+<div contenteditable="true" class="editable isModified">
+<h2>This is a much longer post title</h2>
 
-Jekyll also offers powerful support for code snippets:
+<span class="description">Jun 16th, 2013</span>
+<p>
+  This is the body of the text. You can <b>click</b> here to edit. Viewing an individual post is no different from editing an individual post. Everything is always saved. <em>Always.</em> However, you might want to publish your post. Presumably, clicking publish will make a commit, so the post will be live.
+</p>
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+<p>I was thinking of not having a save button at all, but that might be confusing for users.</p>
+</div>

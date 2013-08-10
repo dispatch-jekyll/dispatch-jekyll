@@ -2,4 +2,42 @@
 	float:left;
 	margin-right:.25em;
 	margin-bottom:2em;
+	-webkit-transition:all .2s ease;
+}
+
+i{
+  -webkit-transition:all .3s ease;
+}
+
+.button i{
+  position:absolute;
+  left:1em;
+  opacity:0;
+  line-height:1.5em;
+  
+}
+
+.button:active,
+.button.active,
+.button.attn:active{
+  -webkit-transform:translateY(2px);
+}
+
+.button:active,
+.button.active{
+	box-shadow: 0px 1px 0px #27ae60;
+}
+
+.button.attn:active{
+  box-shadow: 0px 1px 0px #c0392b;
+}
+
+.button.active {
+  padding-left:2.5em;
+  position:relative;
+  background:#27ae60;
+}
+
+.button.active i {
+  opacity:1;
 }
