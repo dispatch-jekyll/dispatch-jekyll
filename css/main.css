@@ -1,5 +1,10 @@
+
 body{
-	font-family: 'Helvetica Neue';
+	font-family: 'Open Sans';
+}
+
+h1, h2, h3{
+  font-weight: 400;
 }
 
 [contenteditable]{
@@ -15,10 +20,20 @@ body{
   font:inherit;
   padding:.5em 1em;
   text-decoration: none;
+  position: relative;
+}
+
+.button:active{
+  -webkit-transform:translateY(2px);
+  box-shadow:0px 1px 0px #27ae60;
 }
 
 .button.subtle{
 	background:#999;
   	color:#fff;
   	box-shadow:0px 3px 0px #666;
+}
+
+.button.subtle:active{
+  box-shadow:0px 1px 0px #666;
 }
