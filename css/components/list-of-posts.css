@@ -6,6 +6,10 @@ ul{
 	border-radius:10px;
 }
 
+.posts li {
+	background: rgba(100%,100%,100%,.8);
+}
+
 li{
 	border:1px solid #ccc;
 	border-bottom:0px solid #ccc;
