@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">  
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/css/font-awesome.css">
+        <meta name="viewport" content="width=device-width">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+   
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/components/{{page.stylesheet}}">
+
+    </head>
+    <body>
+        <header>
+            <nav class='site__nav'>
+                <div class='shadow'>
+                    <div class='wrapper'>              
+                        <a href="/" class='logo'><i class='icon-bullhorn'></i>Dispatch</a>
+                    </div>
+                </div>
+            </nav>  
+        </header>
+        <div class='wrapper'>
+        {{content}}
+        </div>
+        <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+        <script src='/js/main.js?{{site.time}}' type='text/javascript'></script>
+    </body>
+</html>

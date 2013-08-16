@@ -1,0 +1,44 @@
+html{
+	background:url(http://31.media.tumblr.com/56a9757318c0f2ed1c1c687f254b2fb8/tumblr_mopqkkwK2M1st5lhmo1_1280.jpg) 50% 50%;
+	background-size:cover;
+	position:relative;
+	height:100%;
+}
+
+html:after{
+content:'';
+display:block;
+position:absolute;
+height:100%;
+width:100%;
+top:0;
+left:0;
+background-color:rgba(0,0,0,.5);
+z-index:2;
+}
+
+h1, h2 {
+	color:#fff;
+	text-shadow:2px 2px 0px #000;
+}
+
+body{
+	position:relative;
+	z-index:3;
+	font-family:sans-serif;
+}
+
+.call-to-action{
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding:2em;
+	font:inherit;
+	border:none;
+}
+
+.more {
+	margin-top:1em;
+	padding:2em;
+	background:rgba(100%,100%,100%,.8);
+}
