@@ -6,6 +6,11 @@ ul{
 	border-radius:10px;
 }
 
+.posts a
+.posts a:visited {
+	color: #F8F7F3;
+}
+
 .posts li {
 	background: rgba(100%,100%,100%,.8);
 }
@@ -25,7 +30,7 @@ li:last-child{
 }
 
 li a{
-	padding:1em .5em;
+	padding: 1em .5em;
 	display:block;
 }
 

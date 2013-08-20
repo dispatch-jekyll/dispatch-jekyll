@@ -81,12 +81,13 @@ h1, h2, h3{
   padding:.5em 1em;
   text-decoration: none;
   position: relative;
+  margin: 1em 0;
 }
 
 .button.attn{
-    background:#999;
-    color:#fff;
-    box-shadow:0px 3px 0px #666;
+  background:#999;
+  color:#fff;
+  box-shadow:0px 3px 0px #666;
 }
 
 .button:active{
