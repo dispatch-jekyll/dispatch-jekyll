@@ -95,6 +95,11 @@ h1, h2, h3 {
   box-shadow: 0 3px 0 #666;
 }
 
+.button.slow {
+  background: #ccc12e;
+  box-shadow: 0 3px 0 #afa628;
+}
+
 .button:active {
   -webkit-transform: translateY(2px);
   box-shadow: 0 1px 0 #27ae60;
